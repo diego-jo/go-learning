@@ -2,7 +2,7 @@ package maps
 
 import "fmt"
 
-func run() {
+func Run() {
 	var cars map[string]string
 
 	cars["BMW"] = "320i"

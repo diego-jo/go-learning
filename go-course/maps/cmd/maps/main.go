@@ -1,7 +1,7 @@
 package main
 
-import "github.com/diego-jo/go-learning/maps/running_maps"
+import "github.com/diego-jo/go-learning/maps"
 
 func main() {
-	run()
+	Run()
 }
