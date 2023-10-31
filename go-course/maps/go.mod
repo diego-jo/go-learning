@@ -1,3 +1,3 @@
-module github.com/diego-jo/go-learning/go-course/maps/cmd/maps
+module github.com/diego-jo/go-learning/go-course/maps
 
 go 1.21.3
