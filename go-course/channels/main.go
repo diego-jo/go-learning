@@ -18,6 +18,12 @@ func main() {
 	for _, link := range links {
 		go checklink(link)
 	}
+
+	// dúvidas:
+	// posso colocar outras instruções após lançar uma go routine
+	// e por último espera o retorno dos channels???
+
+	// uma go routine pode chamar outras? de forma encadeada?
 }
 
 func checklink(link string) {
